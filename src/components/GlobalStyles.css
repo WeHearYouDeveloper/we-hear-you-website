@@ -1,10 +1,13 @@
 :root {
   --orange: #f3784a;
   --blue: #131b41;
-  --lightBlue: #;
+  --lightBlue: #8093D8;
+  --darkBlue: #070F2B;
   --yellow: #fdbe4e;
   --black: #;
   --heroOrange: linear-gradient(45deg, var(--yellow) 0%, var(--orange) 70%);
+  --heroBlue: linear-gradient(45deg, var(--blue) 0%, var(--darkBlue) 100%);
+
 }
 
 body {
@@ -12,6 +15,12 @@ body {
   padding: 0;
   font-family: "roboto", sans-serif;
   color: var(--blue);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 5em;
+  margin-top: 0;
 }
 
 h2 {
@@ -27,8 +36,13 @@ button {
   background-color: var(--blue);
   color: white;
   border-radius: 30px;
+  cursor: pointer;
+}
+
+button:hover {
+    background: var(--heroBlue);
 }
 
 p {
-    line-height: 1.8em;
+  line-height: 1.8em;
 }
