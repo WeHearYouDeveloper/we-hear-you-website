@@ -1,4 +1,4 @@
-require('dotenv').config({
+require("dotenv").config({
   path: `.env`,
 })
 
@@ -37,6 +37,13 @@ module.exports = {
       options: {
         spaceId: process.env.CONTENTFUL_SPACE_ID,
         accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`roboto\:100,300,700,900`],
+        display: "swap",
       },
     },
   ],

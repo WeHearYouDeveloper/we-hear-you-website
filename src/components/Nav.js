@@ -1,19 +1,31 @@
 import React from "react"
 import { Link } from "gatsby"
-import { withTheme } from "styled-components"
+import styled, { withTheme } from "styled-components"
+import Logo from "../images/we-hear-you-flat.svg"
 
-import { Box } from "rebass"
+const StyledImg = styled.img`
+  width: 200px;
+`
+const StyledNav = styled.nav`
+  height: 50px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+`
 
-const Nav = props => {
+const Nav = () => {
   return (
-    <>
-      <Box
-        width="100%"
-        height="100px"
-        bg="orange"
-        sx={{ margin: 0 }}
-      ></Box>
-    </>
+    <StyledNav>
+      <StyledImg src={Logo} />
+      <div>
+          <button>Contact Us</button>
+      </div>
+    </StyledNav>
   )
 }
 

@@ -3,11 +3,12 @@ import PropTypes from "prop-types"
 import { withTheme } from 'styled-components'
 
 import Nav from "./Nav"
+import "./GlobalStyles.css"
 
-const Layout = ({ theme, children, nonHero }) => {
+const Layout = ({ children, nonHero }) => {
   return (
     <>
-      <Nav bg={nonHero && theme.colors.orange}/>
+      <Nav />
       {children}
     </>
   )
