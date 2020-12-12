@@ -13,6 +13,7 @@ const HeroSection = styled.section`
   min-height: 100vh;
   background: var(--heroOrange);
   padding-top: 100px;
+  position: relative;
 
   @media only screen and (min-width: 1000px) {
     padding-top: 150px;
@@ -72,9 +73,13 @@ const StyledFlexLink = styled(AnchorLink)`
   width: 150px;
   color: var(--blue);
   text-decoration: none;
+  position: relative;
+  z-index: 2;
 
   @media only screen and (min-width: 1000px) {
-    margin-top: 75px;
+    position: absolute;
+    bottom: 45px;
+    left: 100px;
   }
 `
 const StyledChevronImg = styled.img`
@@ -83,6 +88,11 @@ const StyledChevronImg = styled.img`
 `
 const StyledVideoSection = styled.section`
   background-color: lightGray;
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+  padding-top: 0px;
+  display: block;
 `
 
 const IndexPage = ({ data }) => {
@@ -103,10 +113,6 @@ const IndexPage = ({ data }) => {
               We Hear You provides a solution to a common problem faced by
               individuals who are challenged by communication barriers.
             </LeftP>
-            <StyledFlexLink to="/#learn-more">
-              <StyledChevronImg src={chevronDown} alt="chevron-down" />
-              <ScrollDown>Learn more</ScrollDown>
-            </StyledFlexLink>
           </StyledWidthDiv>
           <StyledWidthDiv>
             <Img
@@ -115,6 +121,10 @@ const IndexPage = ({ data }) => {
               alt="hands reaching out"
             />
           </StyledWidthDiv>
+          <StyledFlexLink to="/#learn-more">
+            <StyledChevronImg src={chevronDown} alt="chevron-down" />
+            <ScrollDown>Learn more</ScrollDown>
+          </StyledFlexLink>
         </HeroSection>
         <section>
           <StyledWidthDiv>

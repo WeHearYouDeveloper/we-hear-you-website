@@ -53,6 +53,13 @@ section {
   padding: 50px 20px 50px 20px;
 }
 
+iframe {
+  position: absolute;
+  width: calc(100vw - 40px);
+  height: calc(100% - 100px);
+  top: 50px;
+}
+
 @media only screen and (min-width: 200px) {
   h1 {
     font-size: 3em;
@@ -69,6 +76,18 @@ section {
 
   h2 {
     font-size: 2em;
+  }
+}
+
+
+@media only screen and (min-width: 450px) {
+  section {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+
+  iframe {
+    width: calc(100vw - 200px);
   }
 }
 
@@ -98,4 +117,5 @@ section {
     padding-left: 100px;
     padding-right: 100px;
   }
+
 }

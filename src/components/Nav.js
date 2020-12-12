@@ -48,7 +48,7 @@ const StyledLinkButton = styled(Link)`
     }
   }
 
-  @media only screen and (min-width: 1000px) {
+  @media only screen and (min-width: 515px) {
     padding: 10px 30px;
     background-color: var(--blue);
     color: white;
