@@ -1,13 +1,12 @@
 :root {
   --orange: #f3784a;
   --blue: #131b41;
-  --lightBlue: #8093D8;
-  --darkBlue: #070F2B;
+  --lightBlue: #8093d8;
+  --darkBlue: #070f2b;
   --yellow: #fdbe4e;
   --black: #;
   --heroOrange: linear-gradient(45deg, var(--yellow) 0%, var(--orange) 70%);
   --heroBlue: linear-gradient(45deg, var(--blue) 0%, var(--darkBlue) 100%);
-
 }
 
 body {
@@ -28,6 +27,7 @@ h2 {
   font-weight: 900;
   margin-top: 0;
   margin-bottom: 15px;
+  max-width: 400px;
 }
 
 button {
@@ -40,9 +40,62 @@ button {
 }
 
 button:hover {
-    background: var(--heroBlue);
+  background: var(--heroBlue);
 }
 
 p {
   line-height: 1.8em;
+}
+
+section {
+  box-sizing: border-box;
+  display: block;
+  padding: 50px 20px 50px 20px;
+}
+
+@media only screen and (min-width: 200px) {
+  h1 {
+    font-size: 3em;
+    margin-top: 70px;
+  }
+
+  .mobileCentered {
+    text-align: center;
+  }
+
+  .mobileDisappear {
+    display: none;
+  }
+
+  h2 {
+    font-size: 2em;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  h1 {
+    font-size: 4em;
+    margin-top: 0;
+    width: 100%;
+  }
+
+  .mobileCentered {
+    text-align: center;
+  }
+
+  .mobileDisappear {
+    display: block;
+  }
+
+  h2 {
+    font-size: 3em;
+  }
+
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-left: 100px;
+    padding-right: 100px;
+  }
 }

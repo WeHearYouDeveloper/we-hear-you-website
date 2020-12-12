@@ -5,9 +5,18 @@ import Logo from "../images/we-hear-you-flat.svg"
 
 const StyledImg = styled.img`
   width: 200px;
+  display: block;
+  margin: auto;
+`
+const StyledLogoLink = styled(Link)`
+  @media only screen and (max-width: 450px) {
+    width: 100%;
+  }
 `
 const StyledNav = styled.nav`
-  height: 50px;
+  min-height: 50px;
+  box-sizing: border-box;
+  width: 100%;
   padding: 15px;
   display: flex;
   align-items: center;
@@ -16,15 +25,81 @@ const StyledNav = styled.nav`
   left: 0;
   top: 0;
   right: 0;
+  z-index: 5;
+
+  @media only screen and (max-width: 450px) {
+    display: block;
+  }
+`
+const StyledLinkButton = styled(Link)`
+  border: 0px;
+  font-weight: 300;
+  text-decoration: none;
+
+  
+
+  @media only screen and (min-width: 200px) {
+    background-color: transparent;
+    padding: 0;
+    color: var(--blue);
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  @media only screen and (min-width: 1000px) {
+    padding: 10px 30px;
+    background-color: var(--blue);
+    color: white;
+    border-radius: 30px;
+
+    &:hover {
+        background: var(--heroBlue);
+        text-decoration: none;
+      }
+  }
+`
+const StyledLink = styled(Link)`
+  text-decoration: none;
+  font-weight: 300;
+  color: var(--blue);
+
+  &:hover {
+    text-decoration: underline;
+  }
+`
+const StyledLi = styled.li`
+  display: inline-block;
+
+  & + & {
+    margin-left: 30px;
+  }
+`
+const StyledUl = styled.ul`
+  padding-left: 0;
+  display: block;
+  text-align: center;
+
+  @media only screen and (min-width: 200px) {
+    margin-top: 20px;
+  }
 `
 
 const Nav = () => {
   return (
     <StyledNav>
-      <StyledImg src={Logo} />
-      <div>
-          <button>Contact Us</button>
-      </div>
+      <StyledLogoLink to="/">
+        <StyledImg src={Logo} alt="We Hear You Logo" />
+      </StyledLogoLink>
+      <StyledUl>
+        <StyledLi>
+          <StyledLink to="/">Who We Are</StyledLink>
+        </StyledLi>
+        <StyledLi>
+          <StyledLinkButton to="/">Contact Us</StyledLinkButton>
+        </StyledLi>
+      </StyledUl>
     </StyledNav>
   )
 }
