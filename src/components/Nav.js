@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import styled, { withTheme } from "styled-components"
-import Logo from "../images/we-hear-you-flat.svg"
+import Logo from "../SVGs/we-hear-you-flat.svg"
 
 const StyledImg = styled.img`
   width: 200px;
