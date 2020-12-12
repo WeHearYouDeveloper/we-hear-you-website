@@ -5,6 +5,9 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Authentication tokens
+contentful-API-tokens.js
+
 # Runtime data
 pids
 *.pid

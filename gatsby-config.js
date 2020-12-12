@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `Gatsby Default Starter`,
@@ -9,7 +13,6 @@ module.exports = {
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
         path: `${__dirname}/src/images`,
       },
     },
@@ -27,8 +30,26 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-styled-components`,
+    {
+      resolve: `gatsby-source-contentful`,
+      options: {
+        spaceId: process.env.CONTENTFUL_SPACE_ID,
+        accessToken: process.env.CONTENTFUL_ACCESS_TOKEN,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [`roboto\:100,300,700,900`],
+        display: "swap",
+      },
+    },
+    {
+      resolve: "gatsby-plugin-anchor-links",
+      options: {
+        offset: -100,
+      },
+    },
   ],
 }
