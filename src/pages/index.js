@@ -5,9 +5,9 @@ import Img from "gatsby-image"
 import { AnchorLink } from "gatsby-plugin-anchor-links"
 
 import Layout from "../components/layout"
-import abstract from "../images/abstracted-fingers-03.svg"
-import logoHand from "../images/logo-image-04.svg"
-import chevronDown from "../images/chevron-down-05.svg"
+import abstract from "../SVGs/abstracted-fingers-03.svg"
+import logoHand from "../SVGs/logo-image-04.svg"
+import chevronDown from "../SVGs/chevron-down-05.svg"
 
 const HeroSection = styled.section`
   min-height: 100vh;
