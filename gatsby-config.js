@@ -12,14 +12,15 @@ module.exports = {
     image: "/images/hands_for-web.jpg",
     twitterUsername: `@WeHearYouASL`,
   },
-  plugins: [ 
+  plugins: [
     "gatsby-plugin-sitemap",
     {
-      resolve: 'gatsby-plugin-robots-txt',
+      resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: 'https://www.wehearyouasl.com',
-        sitemap: 'https://www.wehearyouasl.com/sitemap.xml',
-      }
+        host: "https://www.wehearyouasl.com",
+        sitemap: "https://www.wehearyouasl.com/sitemap.xml",
+        policy: [{ userAgent: "*" }],
+      },
     },
 
     `gatsby-plugin-react-helmet`,
