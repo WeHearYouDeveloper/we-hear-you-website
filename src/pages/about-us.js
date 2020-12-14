@@ -181,7 +181,7 @@ const AboutUs = ({ data }) => {
                   fluid={data.zach.edges[0].node.childImageSharp.fluid}
                   alt="Zach Swords"
                 />
-                <h3>Zack Swords</h3>
+                <h3>Zach Swords</h3>
                 <h4>ASL Interpreter</h4>
               </BioDiv>
             </MediumColumnBox>
