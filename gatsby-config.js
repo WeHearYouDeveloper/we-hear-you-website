@@ -19,7 +19,14 @@ module.exports = {
       options: {
         host: "https://www.wehearyouasl.com",
         sitemap: "https://www.wehearyouasl.com/sitemap.xml",
-        policy: [{ userAgent: "*" }],
+        env: {
+          development: {
+            policy: [{ userAgent: "*", disallow: ["/"] }],
+          },
+          production: {
+            policy: [{ userAgent: "*", allow: "/" }],
+          },
+        },
       },
     },
 
