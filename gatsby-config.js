@@ -14,22 +14,6 @@ module.exports = {
   },
   plugins: [
     "gatsby-plugin-sitemap",
-    {
-      resolve: "gatsby-plugin-robots-txt",
-      options: {
-        host: "https://www.wehearyouasl.com",
-        sitemap: "https://www.wehearyouasl.com/sitemap.xml",
-        env: {
-          development: {
-            policy: [{ userAgent: "*", disallow: ["/"] }],
-          },
-          production: {
-            policy: [{ userAgent: "*", allow: "/" }],
-          },
-        },
-      },
-    },
-
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
