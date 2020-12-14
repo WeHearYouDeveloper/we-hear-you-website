@@ -4,11 +4,25 @@ require("dotenv").config({
 
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `We Hear You`,
+    description: `solution to a common problem for
+    individuals who face communication barriers.`,
+    author: "We Hear You, LLC",
+    siteUrl: "https://www.wehearyouasl.com",
+    image: "/images/hands_for-web.jpg",
+    twitterUsername: `@WeHearYouASL`,
   },
-  plugins: [
+  plugins: [ 
+    "gatsby-plugin-sitemap",
+    {
+      resolve: 'gatsby-plugin-robots-txt',
+      options: {
+        host: 'https://www.wehearyouasl.com',
+        sitemap: 'https://www.wehearyouasl.com/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
+    },
+
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
@@ -27,7 +41,7 @@ module.exports = {
         background_color: `#663399`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/logo-favicon.png`, // This path is relative to the root of the site.
       },
     },
     `gatsby-plugin-styled-components`,

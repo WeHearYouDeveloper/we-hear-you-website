@@ -98,7 +98,7 @@ const StyledVideoSection = styled.section`
 const IndexPage = ({ data }) => {
   console.log(data)
   return (
-    <Layout>
+    <Layout title="We Hear You | Who We Are">
       <main>
         <HeroSection>
           <StyledAbstractSVG
@@ -110,8 +110,8 @@ const IndexPage = ({ data }) => {
             <Subheader>A VOICE FOR ALL</Subheader>
             <h2>To be Understood</h2>
             <LeftP>
-              We Hear You provides a solution to a common problem faced by
-              individuals who are challenged by communication barriers.
+              We Hear You provides a solution to a common problem for
+              individuals faced with communication barriers.
             </LeftP>
           </StyledWidthDiv>
           <StyledWidthDiv>
@@ -143,11 +143,11 @@ const IndexPage = ({ data }) => {
             <RightP>
               We Hear You is an application that translates American Sign
               Language into spoken English through the use of newly developed
-              gesture -recognition technology.
+              gesture-recognition technology.
             </RightP>
             <RightP>
               We Hear You will solve the problem many individuals face when
-              wanting to partake in everyday life but cannot due to
+              wanting to partake in everyday life but are met with
               communication barriers.
             </RightP>
           </StyledWidthDiv>

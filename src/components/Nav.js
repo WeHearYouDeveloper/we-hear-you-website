@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import styled, { withTheme } from "styled-components"
+import styled from "styled-components"
 import Logo from "../SVGs/we-hear-you-flat.svg"
 
 const StyledImg = styled.img`
@@ -94,14 +94,14 @@ const Nav = () => {
       </StyledLogoLink>
       <StyledUl>
         <StyledLi>
-          <StyledLink to="/">Who We Are</StyledLink>
+          <StyledLink to="/about-us/">Who We Are</StyledLink>
         </StyledLi>
         <StyledLi>
-          <StyledLinkButton to="/">Contact Us</StyledLinkButton>
+          <StyledLinkButton to="/contact-us/">Contact Us</StyledLinkButton>
         </StyledLi>
       </StyledUl>
     </StyledNav>
   )
 }
 
-export default withTheme(Nav)
+export default Nav
