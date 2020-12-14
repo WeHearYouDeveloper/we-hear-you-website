@@ -94,10 +94,10 @@ const Nav = () => {
       </StyledLogoLink>
       <StyledUl>
         <StyledLi>
-          <StyledLink to="/">Who We Are</StyledLink>
+          <StyledLink to="/about-us/">Who We Are</StyledLink>
         </StyledLi>
         <StyledLi>
-          <StyledLinkButton to="/">Contact Us</StyledLinkButton>
+          <StyledLinkButton to="/contact-us/">Contact Us</StyledLinkButton>
         </StyledLi>
       </StyledUl>
     </StyledNav>
