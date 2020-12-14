@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
+import { graphql } from "gatsby"
 
 import Layout from "../components/layout"
 
@@ -114,16 +115,19 @@ const AboutUs = ({ data }) => {
             <LeftP>
               Pierre Paul is the founder and CEO of We Hear You. Pierre is a
               national public speaker, an avid social justice advocate, and was
-              a finalist in the 2020 Bradley University Big Idea Competition.
-              Pierre graduated in December 2019 with his Political Science
-              degree and began his Masters degree in Non-Profit Leadership in
-              January of 2020. He is currently completing a certificate with
-              Cornell University for Diversity Inclusion. Battling poverty when
-              his family first moved to the US fuels his drive to use his
-              entrepreneurial skills to benefit the lives of others.
+              award first place in the 2020 Bradley University Big Idea
+              Competition. Pierre graduated in December 2019 with his Political
+              Science degree and will complete his Masters in May of 2021. He
+              also earned a certificate from eCornell in Diversity and
+              Inclusion. Battling poverty when his family first moved to the US
+              fuels his drive to use his entrepreneurial skills to benefit the
+              lives of others.
             </LeftP>
           </div>
-          <StyledPierreImg fluid={data.pierre.edges[0].node.childImageSharp.fluid} alt="Pierre Paul stands next to a We Hear You banner" />
+          <StyledPierreImg
+            fluid={data.pierre.edges[0].node.childImageSharp.fluid}
+            alt="Pierre Paul stands next to a We Hear You banner"
+          />
         </section>
         <StyledSectionBlue>
           <h2>Our Developers</h2>
@@ -246,16 +250,16 @@ export const query = graphql`
       }
     }
     pierre: allFile(filter: { relativePath: { eq: "pierre-paul.jpg" } }) {
-        edges {
-          node {
-            childImageSharp {
-              fluid {
-                ...GatsbyImageSharpFluid
-              }
+      edges {
+        node {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
             }
           }
         }
       }
+    }
   }
 `
 
