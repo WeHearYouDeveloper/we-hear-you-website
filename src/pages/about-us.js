@@ -115,10 +115,10 @@ const AboutUs = ({ data }) => {
             <LeftP>
               Pierre Paul is the founder and CEO of We Hear You. Pierre is a
               national public speaker, an avid social justice advocate, and was
-              award first place in the 2020 Bradley University Big Idea
+              awarded first place in the 2020 Bradley University Big Idea
               Competition. Pierre graduated in December 2019 with his Political
               Science degree and will complete his Masters in May of 2021. He
-              also earned a certificate from eCornell in Diversity and
+              has also earned a certificate from eCornell in Diversity and
               Inclusion. Battling poverty when his family first moved to the US
               fuels his drive to use his entrepreneurial skills to benefit the
               lives of others.

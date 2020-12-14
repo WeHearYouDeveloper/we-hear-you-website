@@ -5,8 +5,8 @@ require("dotenv").config({
 module.exports = {
   siteMetadata: {
     title: `We Hear You`,
-    description: `solution to a common problem faced by
-    individuals who are challenged by communication barriers.`,
+    description: `solution to a common problem for
+    individuals who face communication barriers.`,
     author: "We Hear You, LLC",
     siteUrl: "https://www.wehearyouasl.com",
     image: "/images/hands_for-web.jpg",
@@ -19,7 +19,6 @@ module.exports = {
       options: {
         host: 'https://www.wehearyouasl.com',
         sitemap: 'https://www.wehearyouasl.com/sitemap.xml',
-        policy: [{ userAgent: '*', allow: '/' }]
       }
     },
 

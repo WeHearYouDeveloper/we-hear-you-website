@@ -110,8 +110,8 @@ const IndexPage = ({ data }) => {
             <Subheader>A VOICE FOR ALL</Subheader>
             <h2>To be Understood</h2>
             <LeftP>
-              We Hear You provides a solution to a common problem faced by
-              individuals who are challenged by communication barriers.
+              We Hear You provides a solution to a common problem for
+              individuals faced with communication barriers.
             </LeftP>
           </StyledWidthDiv>
           <StyledWidthDiv>
@@ -147,7 +147,7 @@ const IndexPage = ({ data }) => {
             </RightP>
             <RightP>
               We Hear You will solve the problem many individuals face when
-              wanting to partake in everyday life but cannot due to
+              wanting to partake in everyday life but are met with
               communication barriers.
             </RightP>
           </StyledWidthDiv>
