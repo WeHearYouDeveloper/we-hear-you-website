@@ -107,6 +107,7 @@ const AboutUs = ({ data }) => {
               we know it should be the foundation.
             </LeftP>
           </div>
+          
         </FirstSection>
         <section>
           <div>
@@ -144,6 +145,8 @@ const AboutUs = ({ data }) => {
             <StyledLi>Joe Santoni</StyledLi>
             <StyledLi>Jerod Lockhart</StyledLi>
             <StyledLi>Evan Meyer</StyledLi>
+            <StyledLi>Adam Byerly</StyledLi>
+            <StyledLi>David Brennan</StyledLi>
           </StyledUl>
         </StyledSectionBlue>
         <StyledSection>
