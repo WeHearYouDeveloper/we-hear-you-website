@@ -167,11 +167,11 @@ const IndexPage = ({ data }) => {
         </StyledVideoSection>
         <section>
           <StyledWidthDiv>
-            <h2>Launching Soon</h2>
+            <h2>Pilot Launched</h2>
             <LeftP>
               Our pilot program's goal is to achieve fluid conversations between
               a customer and barista so the customer may effectively communicate
-              an order. This pilot program will launch December of 2020 at The
+              an order. This pilot program has launched December 19th of 2020 at The
               Spot Coffee in Peoria, IL. The Spot Coffee values inclusivity
               above all else and was overjoyed to help bring accommodations to
               those with hearing exceptionalities.
@@ -185,6 +185,19 @@ const IndexPage = ({ data }) => {
             />
           </StyledWidthDiv>
         </section>
+        <StyledVideoSection>
+          <iframe
+            src="https://www.youtube.com/embed/ixiWjYTzijk"
+            title="We Hear You 2020 Recap"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            frameBorder="0"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+            width="100%"
+            height="100%"
+          />
+        </StyledVideoSection>
       </main>
     </Layout>
   )
