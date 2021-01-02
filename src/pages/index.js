@@ -198,6 +198,7 @@ const IndexPage = ({ data }) => {
             height="100%"
           />
         </StyledVideoSection>
+      </main>
     </Layout>
   )
 }
