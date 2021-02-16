@@ -27,7 +27,7 @@ const StyledNav = styled.nav`
   right: 0;
   z-index: 5;
 
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 520px) {
     display: block;
   }
 `
@@ -35,8 +35,6 @@ const StyledLinkButton = styled(Link)`
   border: 0px;
   font-weight: 300;
   text-decoration: none;
-
-  
 
   @media only screen and (min-width: 200px) {
     background-color: transparent;
@@ -48,16 +46,16 @@ const StyledLinkButton = styled(Link)`
     }
   }
 
-  @media only screen and (min-width: 515px) {
+  @media only screen and (min-width: 600px) {
     padding: 10px 30px;
     background-color: var(--blue);
     color: white;
     border-radius: 30px;
 
     &:hover {
-        background: var(--heroBlue);
-        text-decoration: none;
-      }
+      background: var(--heroBlue);
+      text-decoration: none;
+    }
   }
 `
 const StyledLink = styled(Link)`
@@ -93,6 +91,9 @@ const Nav = () => {
         <StyledImg src={Logo} alt="We Hear You Logo" />
       </StyledLogoLink>
       <StyledUl>
+        <StyledLi>
+          <StyledLink to="/pricing/">Pricing</StyledLink>
+        </StyledLi>
         <StyledLi>
           <StyledLink to="/about-us/">Who We Are</StyledLink>
         </StyledLi>
