@@ -154,7 +154,7 @@ const IndexPage = ({ data }) => {
         </section>
         <StyledVideoSection>
           <iframe
-            src="https://www.youtube.com/embed/idaldLMjP2E"
+            src="https://www.youtube.com/embed/osdI_qWqLlo"
             title="We Hear You Prototyped"
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
