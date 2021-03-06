@@ -154,7 +154,7 @@ const IndexPage = ({ data }) => {
         </section>
         <StyledVideoSection>
           <iframe
-            src="https://www.youtube.com/embed/idaldLMjP2E"
+            src="https://www.youtube.com/embed/osdI_qWqLlo"
             title="Hands Free Door Opener Prototype"
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
