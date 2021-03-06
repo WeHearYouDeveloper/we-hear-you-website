@@ -66,9 +66,10 @@ const FlexDiv = styled.div`
 
 const ContactUs = () => {
   return (
-    <Layout title="We Hear You | Contact Us">
+    <Layout title="We Hear You | Sign Language Translator">
       <StyledSection>
-        <StyledH2>We Hear You Pricing</StyledH2>
+        <StyledH2>Sign Language Translator</StyledH2>
+        <StyledH2>Pricing</StyledH2>
         <CenterP>
           While we do not currently supply hardware for the We Hear You
           software, we will work with businesses on acquiring the necessary

@@ -111,7 +111,7 @@ const IndexPage = ({ data }) => {
             <h2>To be Understood</h2>
             <LeftP>
               We Hear You provides a solution to a common problem for
-              individuals faced with communication barriers.
+              individuals faced with communication and physical barriers.
             </LeftP>
           </StyledWidthDiv>
           <StyledWidthDiv>
@@ -141,7 +141,7 @@ const IndexPage = ({ data }) => {
               Translated Live
             </h2>
             <RightP>
-              We Hear You is an application that translates American Sign
+              We Hear You has developed an application that translates American Sign
               Language into spoken English through the use of newly developed
               gesture-recognition technology.
             </RightP>
