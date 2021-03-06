@@ -6,11 +6,21 @@ import Layout from "../components/layout"
 const StyledSection = styled.section`
   background: var(--heroOrange);
   display: block;
-  min-height: 80vh;
+  min-height: 50vh;
   padding-top: 150px;
 
   @media only screen and (min-width: 1000px) {
     padding-top: 200px;
+  }
+`
+const StyledSection2 = styled.section`
+  background: var(--heroOrange);
+  display: block;
+  min-height: 30vh;
+  padding-top: 100px;
+
+  @media only screen and (min-width: 1000px) {
+    padding-top: 100px;
   }
 `
 const StyledH2 = styled.h2`
@@ -86,12 +96,7 @@ const ContactUs = () => {
         We Hear You aims to address a problem many individuals face when 
         moving through the world with mobility exceptionalities. This product also 
         helps for individuals cognizant of germs, living a busy life, or whatever the circumstance. 
-        </CenterP>
-        <StyledH2>In Development</StyledH2>
-        <CenterP>
-        The Hands Free Door Opener is currently in the development stage. 
-        We look forward to making it available for purchase hopefully in the near future!
-        </CenterP>
+        </CenterP>       
       </StyledSection> 
       <StyledVideoSection>
           <iframe
@@ -106,6 +111,14 @@ const ContactUs = () => {
             height="100%"
           />
         </StyledVideoSection>
+        <StyledSection2> 
+        <StyledH2>In Development</StyledH2>
+        <CenterP>
+        The Hands Free Door Opener is currently in the development stage. 
+        We look forward to making it available for purchase in the near future!
+        </CenterP>
+        </StyledSection2> 
+
     </Layout>
   )
 }

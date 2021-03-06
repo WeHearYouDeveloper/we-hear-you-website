@@ -108,7 +108,7 @@ const IndexPage = ({ data }) => {
           <StyledWidthDiv>
             <h1>We Hear You</h1>
             <Subheader>A VOICE FOR ALL</Subheader>
-            <h2>To be Understood</h2>
+            <h2>To Be Understood</h2>
             <LeftP>
               We Hear You provides a solution to a common problem for
               individuals faced with communication and physical barriers.
@@ -154,8 +154,8 @@ const IndexPage = ({ data }) => {
         </section>
         <StyledVideoSection>
           <iframe
-            src="https://www.youtube.com/embed/osdI_qWqLlo"
-            title="We Hear You Prototyped"
+            src="https://www.youtube.com/embed/idaldLMjP2E"
+            title="Hands Free Door Opener Prototype"
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
             webkitallowfullscreen="true"

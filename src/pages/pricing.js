@@ -86,6 +86,9 @@ const ContactUs = () => {
             <DivBold>$50</DivBold>
           </StyledDiv>
         </FlexDiv>
+        <CenterP>
+          *Applicable only for businesses making less than 1 million dollars annually.
+        </CenterP>
         <CenterPSmall>
           All money spent through We Hear You is eligible for an{" "}
           <strong>ADA tax credit</strong>. When businesses make accommodations
