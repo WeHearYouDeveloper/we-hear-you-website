@@ -92,7 +92,10 @@ const Nav = () => {
       </StyledLogoLink>
       <StyledUl>
         <StyledLi>
-          <StyledLink to="/pricing/">Pricing</StyledLink>
+          <StyledLink to="/pricing/">ASL Translator</StyledLink>
+        </StyledLi>
+        <StyledLi>
+          <StyledLink to="/hands-free/">Hands Free</StyledLink>
         </StyledLi>
         <StyledLi>
           <StyledLink to="/about-us/">Who We Are</StyledLink>
