@@ -84,7 +84,7 @@ const StyledVideoSection = styled.section`
 
 const ContactUs = () => {
   return (
-    <Layout title="We Hear You | Hands Free">
+    <Layout title="We Hear You | Hands Free Door Opener">
       <StyledSection>
         <StyledH2>Hands Free Door Opener</StyledH2>
         <CenterP>

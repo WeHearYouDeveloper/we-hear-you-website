@@ -14,9 +14,15 @@ const HeroSection = styled.section`
   background: var(--heroOrange);
   padding-top: 100px;
   position: relative;
-
+  display: block;
   @media only screen and (min-width: 1000px) {
     padding-top: 150px;
+  }
+`
+const HeroFlexDiv = styled.div`
+  @media only screen and (min-width: 1000px) {
+    align-items: center;
+    display: flex;
   }
 `
 const Subheader = styled.p`
@@ -75,12 +81,6 @@ const StyledFlexLink = styled(AnchorLink)`
   text-decoration: none;
   position: relative;
   z-index: 2;
-
-  @media only screen and (min-width: 1000px) {
-    position: absolute;
-    bottom: 45px;
-    left: 100px;
-  }
 `
 const StyledChevronImg = styled.img`
   width: 14px;
@@ -105,28 +105,30 @@ const IndexPage = ({ data }) => {
             src={abstract}
             alt="abstract design that resembles hand"
           />
-          <StyledWidthDiv>
-            <h1>We Hear You</h1>
-            <Subheader>A VOICE FOR ALL</Subheader>
-            <h2>To Be Understood</h2>
-            <LeftP>
-              We Hear You is a multi-faceted startup company that is finding
-              new, innovative solutions to problems that have impacted many
-              individuals for far too long.
-            </LeftP>
-            <LeftP>
-              So far, We Hear You is developing their American Sign Language
-              Translator and their Hands Free Door Opener to assist people with
-              hearing and mobility exceptionalities.
-            </LeftP>
-          </StyledWidthDiv>
-          <StyledWidthDiv>
-            <Img
-              className="mobileDisappear"
-              fluid={data.hands.edges[0].node.childImageSharp.fluid}
-              alt="hands reaching out"
-            />
-          </StyledWidthDiv>
+          <HeroFlexDiv>
+            <StyledWidthDiv>
+              <h1>We Hear You</h1>
+              <Subheader>A VOICE FOR ALL</Subheader>
+              <h2>To Be Understood</h2>
+              <LeftP>
+                We Hear You is a multi-faceted startup company that is finding
+                new, innovative solutions to problems that have impacted many
+                individuals for far too long.
+              </LeftP>
+              <LeftP>
+                So far, We Hear You is developing their American Sign Language
+                Translator and their Hands Free Door Opener to assist people
+                with hearing and mobility exceptionalities.
+              </LeftP>
+            </StyledWidthDiv>
+            <StyledWidthDiv>
+              <Img
+                className="mobileDisappear"
+                fluid={data.hands.edges[0].node.childImageSharp.fluid}
+                alt="hands reaching out"
+              />
+            </StyledWidthDiv>
+          </HeroFlexDiv>
           <StyledFlexLink to="/#recap-video">
             <StyledChevronImg src={chevronDown} alt="chevron-down" />
             <ScrollDown>Learn more</ScrollDown>
