@@ -161,7 +161,7 @@ const AboutUs = ({ data }) => {
             </BioDiv>
             <BioDiv>
               <StyledImg
-                fluid={data.jessica.edges[0].node.childImageSharp.fluid}
+                 fluid={data.jessica.edges[0].node.childImageSharp.fluid}
                 alt="Jessica Lang"
               />
               <h3>Jessica Lang</h3>
