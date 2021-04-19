@@ -219,7 +219,7 @@ const IndexPage = ({ data }) => {
               Our primary goal for the American Sign Language pilot program is
               to achieve fluid conversations between a customer and barista so
               the customer may effectively communicate an order. This pilot
-              program has launched December 19th of 2020 at The Spot Coffee in
+              program was launched December 19th of 2020 at The Spot Coffee in
               Peoria, IL. The Spot Coffee values inclusivity above all else and
               was overjoyed to help bring accommodations to those with hearing
               exceptionalities.
