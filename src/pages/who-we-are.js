@@ -104,15 +104,17 @@ const AboutUs = ({ data }) => {
             <h2>Founder and CEO</h2>
             <StyledH3>Pierre Paul</StyledH3>
             <LeftP>
-              Pierre Paul is the founder and CEO of We Hear You. Pierre is a
-              national public speaker, an avid social justice advocate, and was
-              awarded first place in the 2020 Bradley University Big Idea
-              Competition. Pierre graduated in December 2019 with his Political
-              Science degree and will complete his Masters in May of 2021. He
-              has also earned a certificate from eCornell in Diversity and
-              Inclusion. Battling poverty when his family first moved to the US
-              fuels his drive to use his entrepreneurial skills to benefit the
-              lives of others.
+              Pierre Paul is the founder and CEO of We Hear You. Pierre mentors
+              underprivileged children in the community, is a nationally ranked
+              public speaker, and uses his voice to be an avid social justice
+              advocate. He was awarded first place in the 2020 Bradley
+              University Big Idea Competition with his company We Hear You®.
+              Pierre graduated in December 2019 with his Political Science
+              degree and will complete his Masters in May of 2021. He has also
+              earned a certificate from eCornell in Diversity and Inclusion.
+              Battling poverty when his family first moved to the US fuels his
+              drive to use his entrepreneurial skills to benefit the lives of
+              others.
             </LeftP>
           </div>
           <StyledPierreImg
@@ -165,17 +167,18 @@ const AboutUs = ({ data }) => {
                 alt="Jessica Lang"
               />
               <h3>Jessica Lang</h3>
-              <h4>Vice President of Community Engagement</h4>
+              <h4>VP of Community Engagement</h4>
               <Bio>
-                Jessica Is a Human Resource Specialist from Peoria, Illinois.
-                She became deaf shortly after birth. At the age of two, American
-                Sign Language became her first language. She believes that being
-                an advocate for inclusiveness and accessibility in the deaf
-                community will create a better integration and raise awareness
-                of deaf culture, sign language, communication accessibility, and
-                content accessibility. She believes that communication barriers
-                are one of the biggest challenges and a common issue in a social
-                setting for thousands of deaf and hard of hearing people.
+                Jessica is a Human Resource Specialist from Peoria, Illinois.
+                She became deaf shortly after birth and at the age of two,
+                American Sign Language became her first language. She believes
+                that being an advocate for inclusivity and accessibility in the
+                deaf community will create a better integration and raise
+                awareness of deaf culture, sign language, communication
+                accessibility, and content accessibility. She believes that
+                communication barriers are one of the biggest challenges and a
+                common issue in social settings for thousands of deaf and hard
+                of hearing people.
               </Bio>
             </BioDiv>
             <BioDiv>

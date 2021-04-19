@@ -116,9 +116,10 @@ const IndexPage = ({ data }) => {
                 individuals for far too long.
               </LeftP>
               <LeftP>
-                So far, We Hear You is developing their American Sign Language
-                Translator and their Hands Free Door Opener to assist people
-                with hearing and mobility exceptionalities.
+                Currently, We Hear You has developed and is continuing to refine
+                both an American Sign Language Translator, as well as a Hands
+                Free Door Opener in order to assist people with hearing and
+                mobility exceptionalities.
               </LeftP>
             </StyledWidthDiv>
             <StyledWidthDiv>
@@ -215,12 +216,13 @@ const IndexPage = ({ data }) => {
           <StyledWidthDiv>
             <h2>Pilot Launched</h2>
             <LeftP>
-              Our pilot program's goal is to achieve fluid conversations between
-              a customer and barista so the customer may effectively communicate
-              an order. This pilot program has launched December 19th of 2020 at
-              The Spot Coffee in Peoria, IL. The Spot Coffee values inclusivity
-              above all else and was overjoyed to help bring accommodations to
-              those with hearing exceptionalities.
+              Our primary goal for the American Sign Language pilot program is
+              to achieve fluid conversations between a customer and barista so
+              the customer may effectively communicate an order. This pilot
+              program has launched December 19th of 2020 at The Spot Coffee in
+              Peoria, IL. The Spot Coffee values inclusivity above all else and
+              was overjoyed to help bring accommodations to those with hearing
+              exceptionalities.
             </LeftP>
           </StyledWidthDiv>
           <StyledWidthDiv>

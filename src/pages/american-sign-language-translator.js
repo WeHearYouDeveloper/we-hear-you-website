@@ -89,14 +89,14 @@ const AmericanSignLanguageTranslator = () => {
         <StyledH2>ASL Translator</StyledH2>
         <CenterP>
           The We Hear You American Sign Language Translator has the capability
-          of turning hand signs into written word, removing the barrier for
-          people who use ASL at coffee shops, grocery stores, and concert
-          venues.
+          to turn hand signs into written text and speech which will help to
+          remove the barrier for many who use ASL at coffee shops, grocery
+          stores, and concert venues.
         </CenterP>
         <CenterP>
-          We Hear You aims to make the world more easily navigable for people
-          who use ASL. Talk to your local coffee shop today about the
-          capabilities of the We Hear You American Sign Language Translator.
+          We Hear You aims to make the world easier to navigate for people who
+          use ASL. Talk to your local coffee shop today about the capabilities
+          of the We Hear You American Sign Language Translator.
         </CenterP>
       </StyledSection>
       <StyledVideoSection>
@@ -132,10 +132,6 @@ const AmericanSignLanguageTranslator = () => {
             <DivBold>$50</DivBold>
           </StyledDiv>
         </FlexDiv>
-        <CenterP>
-          *Applicable only for businesses making less than 1 million dollars
-          annually.
-        </CenterP>
         <CenterPSmall>
           All money spent through We Hear You is eligible for an{" "}
           <strong>ADA tax credit</strong>. When businesses make accommodations
@@ -145,6 +141,10 @@ const AmericanSignLanguageTranslator = () => {
           improve accessibility.” This tax credit is allowed for up to $10,250
           each year.
         </CenterPSmall>
+        <CenterP>
+          *Applicable only for businesses making less than 1 million dollars
+          annually.
+        </CenterP>
       </StyledSection>
     </Layout>
   )
