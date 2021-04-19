@@ -31,7 +31,7 @@ const CenterP = styled.p`
 `
 const CenterPSmall = styled.p`
   max-width: 600px;
-  font-size: .8em;
+  font-size: 0.8em;
 `
 const StyledDiv = styled.div`
   width: 50%;
@@ -59,7 +59,7 @@ const DivThin = styled.p`
 const DivThinSmall = styled.p`
   text-align: center;
   margin: 0;
-  font-size: .8em;
+  font-size: 0.8em;
 `
 const DivBold = styled.p`
   font-size: 3em;
@@ -69,9 +69,9 @@ const DivBold = styled.p`
   margin-top: 0;
 `
 const FlexDiv = styled.div`
-    display: flex;
-    height: 100%;
-    margin: 50px auto;
+  display: flex;
+  height: 100%;
+  margin: 50px auto;
 `
 const StyledVideoSection = styled.section`
   background-color: lightGray;
@@ -88,37 +88,37 @@ const ContactUs = () => {
       <StyledSection>
         <StyledH2>Hands Free Door Opener</StyledH2>
         <CenterP>
-        We Hear You is developing a product that has the power to turn 
-        all accessible doors into automatic doors from a safe distance, 
-        with just the press of a personal button.
+          We Hear You is developing a product that has the power to turn all
+          accessible doors into automatic doors from a safe distance with just
+          the press of a personal button.
         </CenterP>
         <CenterP>
-        We Hear You aims to address a problem many individuals face when 
-        moving through the world with mobility exceptionalities. This product also 
-        helps for individuals cognizant of germs, living a busy life, or whatever the circumstance. 
-        </CenterP>       
-      </StyledSection> 
+          We Hear You aims to address a problem many individuals face when
+          moving through the world with mobility exceptionalities. This product
+          also helps individuals cognizant of germs, living a busy life, or
+          whatever the circumstance.
+        </CenterP>
+      </StyledSection>
       <StyledVideoSection>
-          <iframe
-            src="https://www.youtube.com/embed/lIYbL7TE2S4"
-            title="We Hear You Hands Free Door Opener Prototype"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-            frameBorder="0"
-            webkitallowfullscreen="true"
-            mozallowfullscreen="true"
-            allowFullScreen
-            width="100%"
-            height="100%"
-          />
-        </StyledVideoSection>
-        <StyledSection2> 
+        <iframe
+          src="https://www.youtube.com/embed/lIYbL7TE2S4"
+          title="We Hear You Hands Free Door Opener Prototype"
+          allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+          frameBorder="0"
+          webkitallowfullscreen="true"
+          mozallowfullscreen="true"
+          allowFullScreen
+          width="100%"
+          height="100%"
+        />
+      </StyledVideoSection>
+      <StyledSection2>
         <StyledH2>In Development</StyledH2>
         <CenterP>
-        The Hands Free Door Opener is currently in the development stage. 
-        We look forward to making it available for purchase in the near future!
+          The Hands Free Door Opener is currently in the development stage. We
+          look forward to making it available for purchase in the near future!
         </CenterP>
-        </StyledSection2> 
-
+      </StyledSection2>
     </Layout>
   )
 }
