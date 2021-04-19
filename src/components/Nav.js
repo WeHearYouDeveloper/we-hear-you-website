@@ -27,14 +27,14 @@ const StyledNav = styled.nav`
   right: 0;
   z-index: 5;
 
-  @media only screen and (max-width: 520px) {
+  @media only screen and (max-width: 677px) {
     display: block;
   }
 `
 const StyledLinkButton = styled(Link)`
   border: 0px;
   font-weight: 300;
-  text-decoration: none;
+  text-decoration: underline;
 
   @media only screen and (min-width: 200px) {
     background-color: transparent;
@@ -46,7 +46,11 @@ const StyledLinkButton = styled(Link)`
     }
   }
 
-  @media only screen and (min-width: 600px) {
+  @media only screen and (min-width: 477px) {
+    text-decoration: none;
+  }
+
+  @media only screen and (min-width: 750px) {
     padding: 10px 30px;
     background-color: var(--blue);
     color: white;
@@ -59,16 +63,22 @@ const StyledLinkButton = styled(Link)`
   }
 `
 const StyledLink = styled(Link)`
-  text-decoration: none;
+  text-decoration: underline;
   font-weight: 300;
   color: var(--blue);
 
   &:hover {
     text-decoration: underline;
   }
+
+  @media only screen and (min-width: 477px) {
+    text-decoration: none;
+  }
 `
 const StyledLi = styled.li`
   display: inline-block;
+  margin-bottom: 15px;
+
 
   & + & {
     margin-left: 30px;
@@ -92,13 +102,13 @@ const Nav = () => {
       </StyledLogoLink>
       <StyledUl>
         <StyledLi>
-          <StyledLink to="/pricing/">ASL Translator Pricing</StyledLink>
+          <StyledLink to="/american-sign-language-translator/">ASL Translator</StyledLink>
         </StyledLi>
         <StyledLi>
-          <StyledLink to="/hands-free/">Hands Free</StyledLink>
+          <StyledLink to="/hands-free-door-opener/">Hands Free</StyledLink>
         </StyledLi>
         <StyledLi>
-          <StyledLink to="/about-us/">Who We Are</StyledLink>
+          <StyledLink to="/who-we-are/">Who We Are</StyledLink>
         </StyledLi>
         <StyledLi>
           <StyledLinkButton to="/contact-us/">Contact Us</StyledLinkButton>

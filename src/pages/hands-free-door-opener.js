@@ -101,7 +101,7 @@ const ContactUs = () => {
       <StyledVideoSection>
           <iframe
             src="https://www.youtube.com/embed/lIYbL7TE2S4"
-            title="We Hear You Prototyped"
+            title="We Hear You Hands Free Door Opener Prototype"
             allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
             frameBorder="0"
             webkitallowfullscreen="true"

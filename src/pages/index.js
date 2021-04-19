@@ -110,8 +110,14 @@ const IndexPage = ({ data }) => {
             <Subheader>A VOICE FOR ALL</Subheader>
             <h2>To Be Understood</h2>
             <LeftP>
-              We Hear You provides a solution to a common problem for
-              individuals faced with communication and physical barriers.
+              We Hear You is a multi-faceted startup company that is finding
+              new, innovative solutions to problems that have impacted many
+              individuals for far too long.
+            </LeftP>
+            <LeftP>
+              So far, We Hear You is developing their American Sign Language
+              Translator and their Hands Free Door Opener to assist people with
+              hearing and mobility exceptionalities.
             </LeftP>
           </StyledWidthDiv>
           <StyledWidthDiv>
@@ -121,12 +127,12 @@ const IndexPage = ({ data }) => {
               alt="hands reaching out"
             />
           </StyledWidthDiv>
-          <StyledFlexLink to="/#learn-more">
+          <StyledFlexLink to="/#recap-video">
             <StyledChevronImg src={chevronDown} alt="chevron-down" />
             <ScrollDown>Learn more</ScrollDown>
           </StyledFlexLink>
         </HeroSection>
-        <section>
+        {/* <section>
           <StyledWidthDiv>
             <StyledHandImg
               className="mobileDisappear"
@@ -141,18 +147,56 @@ const IndexPage = ({ data }) => {
               Translated Live
             </h2>
             <RightP>
-              We Hear You has developed an application that translates American Sign
-              Language into spoken English through the use of newly developed
-              gesture-recognition technology.
+              We Hear You has developed an application that translates American
+              Sign Language into spoken English through the use of newly
+              developed gesture-recognition technology.
             </RightP>
             <RightP>
               We Hear You will solve the problem many individuals face when
-              wanting to partake in everyday life but are met with
-              communication barriers.
+              wanting to partake in everyday life but are met with communication
+              barriers.
             </RightP>
           </StyledWidthDiv>
-        </section>
+        </section> */}
+        {/* <section>
+          <StyledWidthDiv>
+            <StyledHandImg
+              className="mobileDisappear"
+              src={logoHand}
+              alt="hand from logo image"
+            />
+          </StyledWidthDiv>
+          <StyledWidthDiv id="learn-more">
+            <h2>
+              Hands Free
+              <br />
+              Door Opener
+            </h2>
+            <RightP>
+              This automatic door opener works on any 
+            </RightP>
+            <RightP>
+              We Hear You will solve the problem many individuals face when
+              wanting to partake in everyday life but are met with communication
+              barriers.
+            </RightP>
+          </StyledWidthDiv>
+        </section> */}
         <StyledVideoSection>
+          <iframe
+            src="https://www.youtube.com/embed/ixiWjYTzijk"
+            title="We Hear You 2020 Recap"
+            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
+            frameBorder="0"
+            webkitallowfullscreen="true"
+            mozallowfullscreen="true"
+            allowFullScreen
+            width="100%"
+            height="100%"
+            id="recap-video"
+          />
+        </StyledVideoSection>
+        {/* <StyledVideoSection>
           <iframe
             src="https://www.youtube.com/embed/osdI_qWqLlo"
             title="Hands Free Door Opener Prototype"
@@ -164,15 +208,15 @@ const IndexPage = ({ data }) => {
             width="100%"
             height="100%"
           />
-        </StyledVideoSection>
+        </StyledVideoSection> */}
         <section>
           <StyledWidthDiv>
             <h2>Pilot Launched</h2>
             <LeftP>
               Our pilot program's goal is to achieve fluid conversations between
               a customer and barista so the customer may effectively communicate
-              an order. This pilot program has launched December 19th of 2020 at The
-              Spot Coffee in Peoria, IL. The Spot Coffee values inclusivity
+              an order. This pilot program has launched December 19th of 2020 at
+              The Spot Coffee in Peoria, IL. The Spot Coffee values inclusivity
               above all else and was overjoyed to help bring accommodations to
               those with hearing exceptionalities.
             </LeftP>
@@ -185,19 +229,6 @@ const IndexPage = ({ data }) => {
             />
           </StyledWidthDiv>
         </section>
-        <StyledVideoSection>
-          <iframe
-            src="https://www.youtube.com/embed/ixiWjYTzijk"
-            title="We Hear You 2020 Recap"
-            allow="accelerometer; encrypted-media; gyroscope; picture-in-picture"
-            frameBorder="0"
-            webkitallowfullscreen="true"
-            mozallowfullscreen="true"
-            allowFullScreen
-            width="100%"
-            height="100%"
-          />
-        </StyledVideoSection>
       </main>
     </Layout>
   )
