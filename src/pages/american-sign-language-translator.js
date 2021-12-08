@@ -88,15 +88,14 @@ const AmericanSignLanguageTranslator = () => {
       <StyledSection>
         <StyledH2>ASL Translator</StyledH2>
         <CenterP>
-          The We Hear You American Sign Language Translator has the capability
-          of turning hand signs into written word, removing the barrier for
-          people who use ASL at coffee shops, grocery stores, and concert
-          venues.
+        The We Hear You American Sign Language (ASL) Translator has the capability 
+        to turn hand signs into written text and speech as well as turn written or 
+        spoken English back into ASL, which will help to remove the barrier for 
+        many who use ASL at coffee shops, grocery stores, and concert venues.
         </CenterP>
         <CenterP>
-          We Hear You aims to make the world more easily navigable for people
-          who use ASL. Talk to your local coffee shop today about the
-          capabilities of the We Hear You American Sign Language Translator.
+        We Hear You aims to make the world easier to navigate for people who use ASL. 
+        Follow our journey or reach out for more information!
         </CenterP>
       </StyledSection>
       <StyledVideoSection>

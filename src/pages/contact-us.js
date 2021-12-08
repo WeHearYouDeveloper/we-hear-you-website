@@ -38,8 +38,8 @@ const ContactUs = () => {
           Please let us know if you'd like to partner with We Hear You.
         </CenterP>
         <CenterPBold>Directly email our CEO at:</CenterPBold>
-        <StyledAnchor href="mailto:wehearyouasl@gmail.com">
-          WeHearYouASL@gmail.com
+        <StyledAnchor href="mailto:pierre@wehearyouasl.com">
+          Pierre@wehearyouasl.com
         </StyledAnchor>
       </StyledSection>
     </Layout>

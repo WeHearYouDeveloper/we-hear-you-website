@@ -58,7 +58,7 @@ const StyledAbstractSVG = styled.img`
 `
 const RightP = styled.p`
   min-width: 50px;
-  max-width: 350px;
+  max-width: 650px;
   margin-top: 0;
 `
 const StyledHandImg = styled.img`
@@ -115,9 +115,8 @@ const IndexPage = ({ data }) => {
               individuals for far too long.
             </LeftP>
             <LeftP>
-              So far, We Hear You is developing their American Sign Language
-              Translator and their Hands Free Door Opener to assist people with
-              hearing and mobility exceptionalities.
+              So far, We Hear You is developing their ASL Translator and their 
+              Hands Free Door Opener to assist people with hearing and mobility exceptionalities.
             </LeftP>
           </StyledWidthDiv>
           <StyledWidthDiv>
@@ -127,10 +126,6 @@ const IndexPage = ({ data }) => {
               alt="hands reaching out"
             />
           </StyledWidthDiv>
-          <StyledFlexLink to="/#recap-video">
-            <StyledChevronImg src={chevronDown} alt="chevron-down" />
-            <ScrollDown>Learn more</ScrollDown>
-          </StyledFlexLink>
         </HeroSection>
         {/* <section>
           <StyledWidthDiv>

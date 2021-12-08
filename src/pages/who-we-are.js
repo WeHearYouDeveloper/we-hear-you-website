@@ -93,9 +93,8 @@ const AboutUs = ({ data }) => {
           <div>
             <StyledH2>Who We Are</StyledH2>
             <LeftP>
-              We are a handful of individuals who believe diversity and
-              inclusion should never be the afterthought of innovation. Instead,
-              we know it should be the foundation.
+              We are a handful of individuals who believe diversity and inclusion should never be 
+              the afterthought of innovation. Instead, we know it should be the foundation.
             </LeftP>
           </div>
         </FirstSection>
@@ -104,15 +103,14 @@ const AboutUs = ({ data }) => {
             <h2>Founder and CEO</h2>
             <StyledH3>Pierre Paul</StyledH3>
             <LeftP>
-              Pierre Paul is the founder and CEO of We Hear You. Pierre is a
-              national public speaker, an avid social justice advocate, and was
-              awarded first place in the 2020 Bradley University Big Idea
-              Competition. Pierre graduated in December 2019 with his Political
-              Science degree and will complete his Masters in May of 2021. He
-              has also earned a certificate from eCornell in Diversity and
-              Inclusion. Battling poverty when his family first moved to the US
-              fuels his drive to use his entrepreneurial skills to benefit the
-              lives of others.
+              Pierre Paul is the founder and CEO of We Hear You. Pierre mentors underprivileged 
+              children in the community, is a nationally ranked public speaker, and uses his 
+              voice to be an avid social justice advocate. He was awarded first place in the 2020 
+              Bradley University Big Idea Competition with his company We Hear You®. Pierre 
+              graduated in December 2019 with his Political Science degree and will complete 
+              his Masters in May of 2021. He has also earned a certificate from eCornell in 
+              Diversity and Inclusion. Battling poverty when his family first moved to the US 
+              fuels his drive to use his entrepreneurial skills to benefit the lives of others.
             </LeftP>
           </div>
           <StyledPierreImg
@@ -151,17 +149,18 @@ const AboutUs = ({ data }) => {
               <h4>Cheif Design Officer</h4>
               <Bio>
                 Matthew Kirchoff is a Game and Software Design and Developer
-                with a background in User Experience Design. Graduating in May
-                2021 with a Bachelor of Science in Game Design. Matthew will be
-                pursuing a Masters of Science in Game Development at Bradley
-                University following graduation. Matthew also assists with other
-                various projects and causes such as the design and development
-                of local non-profit organizations’ websites.
+                with a background in User Experience Design. Matt graduated from
+                Bradley University in May 2021 with a Bachelor of Science in
+                Game Design. Matthew will be pursuing a Masters of Science in
+                Game Development at Bradley University following graduation.
+                Matthew also assists with other various projects and causes
+                such as the design and development of local non-profit
+                organizations’ websites.
               </Bio>
             </BioDiv>
             <BioDiv>
               <StyledImg
-                 fluid={data.jessica.edges[0].node.childImageSharp.fluid}
+                fluid={data.jessica.edges[0].node.childImageSharp.fluid}
                 alt="Jessica Lang"
               />
               <h3>Jessica Lang</h3>

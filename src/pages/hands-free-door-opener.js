@@ -88,14 +88,15 @@ const ContactUs = () => {
       <StyledSection>
         <StyledH2>Hands Free Door Opener</StyledH2>
         <CenterP>
-        We Hear You is developing a product that has the power to turn 
-        all accessible doors into automatic doors from a safe distance, 
-        with just the press of a personal button.
+        We Hear You has developed a product that has the power to turn all accessible doors 
+        into automatic doors from a safe distance with just the press of a personal button. 
+        From a distance of up to 40 feet, an individual can press their personalized button 
+        and enter a building with ease. 
         </CenterP>
         <CenterP>
-        We Hear You aims to address a problem many individuals face when 
-        moving through the world with mobility exceptionalities. This product also 
-        helps for individuals cognizant of germs, living a busy life, or whatever the circumstance. 
+        We Hear You aims to address a problem many individuals face when moving 
+        through the world with mobility exceptionalities. This product also helps 
+        individuals cognizant of germs, living a busy life, or whatever the circumstance.
         </CenterP>       
       </StyledSection> 
       <StyledVideoSection>
@@ -115,7 +116,7 @@ const ContactUs = () => {
         <StyledH2>In Development</StyledH2>
         <CenterP>
         The Hands Free Door Opener is currently in the development stage. 
-        We look forward to making it available for purchase in the near future!
+        If you are interested in receiving more information, please contact us!
         </CenterP>
         </StyledSection2> 
 
