@@ -64,7 +64,7 @@ const StyledAbstractSVG = styled.img`
 `
 const RightP = styled.p`
   min-width: 50px;
-  max-width: 350px;
+  max-width: 650px;
   margin-top: 0;
 `
 const StyledHandImg = styled.img`
@@ -105,35 +105,27 @@ const IndexPage = ({ data }) => {
             src={abstract}
             alt="abstract design that resembles hand"
           />
-          <HeroFlexDiv>
-            <StyledWidthDiv>
-              <h1>We Hear You</h1>
-              <Subheader>A VOICE FOR ALL</Subheader>
-              <h2>To Be Understood</h2>
-              <LeftP>
-                We Hear You is a multi-faceted startup company that is finding
-                new, innovative solutions to problems that have impacted many
-                individuals for far too long.
-              </LeftP>
-              <LeftP>
-                Currently, We Hear You has developed and is continuing to refine
-                both an American Sign Language Translator, as well as a Hands
-                Free Door Opener in order to assist people with hearing and
-                mobility exceptionalities.
-              </LeftP>
-            </StyledWidthDiv>
-            <StyledWidthDiv>
-              <Img
-                className="mobileDisappear"
-                fluid={data.hands.edges[0].node.childImageSharp.fluid}
-                alt="hands reaching out"
-              />
-            </StyledWidthDiv>
-          </HeroFlexDiv>
-          <StyledFlexLink to="/#recap-video">
-            <StyledChevronImg src={chevronDown} alt="chevron-down" />
-            <ScrollDown>Learn more</ScrollDown>
-          </StyledFlexLink>
+          <StyledWidthDiv>
+            <h1>We Hear You</h1>
+            <Subheader>A VOICE FOR ALL</Subheader>
+            <h2>To Be Understood</h2>
+            <LeftP>
+              We Hear You is a multi-faceted startup company that is finding
+              new, innovative solutions to problems that have impacted many
+              individuals for far too long.
+            </LeftP>
+            <LeftP>
+              So far, We Hear You is developing their ASL Translator and their 
+              Hands Free Door Opener to assist people with hearing and mobility exceptionalities.
+            </LeftP>
+          </StyledWidthDiv>
+          <StyledWidthDiv>
+            <Img
+              className="mobileDisappear"
+              fluid={data.hands.edges[0].node.childImageSharp.fluid}
+              alt="hands reaching out"
+            />
+          </StyledWidthDiv>
         </HeroSection>
         {/* <section>
           <StyledWidthDiv>
