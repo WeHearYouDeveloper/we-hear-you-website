@@ -105,7 +105,7 @@ const Nav = () => {
           <StyledLink to="/american-sign-language-translator/">ASL Translator</StyledLink>
         </StyledLi>
         <StyledLi>
-          <StyledLink to="/hands-free-door-opener/">Hands Free</StyledLink>
+          <StyledLink to="/Push/">Hands Free</StyledLink>
         </StyledLi>
         <StyledLi>
           <StyledLink to="/who-we-are/">Who We Are</StyledLink>
