@@ -1,6 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-
+import Img from "gatsby-image"
 import Layout from "../components/layout"
 
 const StyledSection = styled.section`
@@ -81,24 +81,54 @@ const StyledVideoSection = styled.section`
   padding-top: 0px;
   display: block;
 `
+const StyledImage = styled(Img)`
+  max-width: 500px;
+`
+const StyledWidthDiv = styled.div`
+  position: relative;
+  z-index: 2;
 
-const ContactUs = () => {
+  @media only screen and (min-width: 200px) {
+    width: 100%;
+  }
+
+  @media only screen and (min-width: 1000px) {
+    width: 50%;
+  }
+`
+const LeftP = styled.p`
+  min-width: 50px;
+  max-width: 350px;
+  margin-top: 0;
+`
+
+const ContactUs = ({data}) => {
   return (
     <Layout title="We Hear You | Hands Free Door Opener">
       <StyledSection>
-        <StyledH2>Hands Free Door Opener</StyledH2>
-        <CenterP>
-        We Hear You has developed a product that has the power to turn all accessible doors 
-        into automatic doors from a safe distance with just the press of a personal button. 
-        From a distance of up to 40 feet, an individual can press their personalized button 
-        and enter a building with ease. 
-        </CenterP>
-        <CenterP>
-        We Hear You aims to address a problem many individuals face when moving 
-        through the world with mobility exceptionalities. This product also helps 
-        individuals cognizant of germs, living a busy life, or whatever the circumstance.
-        </CenterP>       
-      </StyledSection> 
+          <StyledWidthDiv>
+            <h2>Push</h2>
+            <LeftP>
+            Formerly known as the Hands Free Door Opener, 
+            We Hear You has developed a product that has the power to turn all accessible doors 
+            into automatic doors from a safe distance with just the press of a personal button. 
+            From a distance of up to 40 feet, an individual can press their personalized button 
+            and enter a building with ease. 
+            </LeftP>
+            <LeftP>
+            We Hear You aims to address a problem many individuals face when moving 
+            through the world with mobility exceptionalities. This product also helps 
+            individuals cognizant of germs, living a busy life, or whatever the circumstance.
+            </LeftP>
+          </StyledWidthDiv>
+          <StyledWidthDiv>
+            <StyledImage
+              className=""
+              fluid={data.pushLogo.edges[0].node.childImageSharp.fluid}
+              alt="The push logo"
+            />
+          </StyledWidthDiv>
+        </StyledSection>
       <StyledVideoSection>
         <iframe
           src="https://www.youtube.com/embed/lIYbL7TE2S4"
@@ -113,9 +143,9 @@ const ContactUs = () => {
         />
       </StyledVideoSection>
       <StyledSection2>
-        <StyledH2>In Development</StyledH2>
+        <StyledH2>Product Launched</StyledH2>
         <CenterP>
-        The Hands Free Door Opener is currently in the development stage. 
+        The Push device is currently in the manufacturing stage and ready for orders. 
         If you are interested in receiving more information, please contact us!
         </CenterP>
       </StyledSection2>
@@ -123,4 +153,19 @@ const ContactUs = () => {
   )
 }
 
+export const query = graphql`
+  query {
+    pushLogo: allFile(filter: { relativePath: { eq: "pushlogo_white.png" } }) {
+      edges {
+        node {
+          childImageSharp {
+            fluid {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    }
+  }
+`
 export default ContactUs
