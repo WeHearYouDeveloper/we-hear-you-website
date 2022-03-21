@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/user/public_html/
+    - /public/cp index.html $DEPLOYPATH
+    - /public/cp styles.2e3f99aa78995d5e950e $DEPLOYPATH
